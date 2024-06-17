@@ -1,5 +1,5 @@
 import andst from "../assets/andst.jpg";
-import emoji from "../assets/emoji.gif";
+
 import mentors from "../assets/mentors.png";
 
 const AboutPage = () => {
