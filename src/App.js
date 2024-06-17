@@ -4,9 +4,9 @@ import {
   Route,
   Routes
 } from 'react-router-dom';
-import LogoPage from './components/Logopage';
 import HomePage from './components/pages/homepage';
 import Register from './components/pages/signuppage';
+import LogoPage from './components/LogoPage';
 import AboutPage from './components/pages/aboutPage';
 import { Link } from 'react-router-dom';
 import andsti from './components/assets/andsti.png';
