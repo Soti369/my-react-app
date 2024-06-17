@@ -11,7 +11,7 @@ import andst from '../components/assets/andst.jpg'
 
 
 
-function LogoPage() {
+function LogoComponent() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -85,7 +85,7 @@ function LogoPage() {
     );
 };
 
-export default LogoPage;
+export default LogoComponent;
 
 
 

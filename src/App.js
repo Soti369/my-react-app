@@ -6,19 +6,13 @@ import {
 } from 'react-router-dom';
 import HomePage from './components/pages/homepage';
 import Register from './components/pages/signuppage';
-import LogoPage from './components/LogoPage';
 import AboutPage from './components/pages/aboutPage';
 import { Link } from 'react-router-dom';
 import andsti from './components/assets/andsti.png';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import FooTer from './components/FooTer';
-
-
-
-
-
-
+import LogoComponent from './components/LogoComponent';
 
 
 const App = () => {
@@ -42,7 +36,7 @@ const App = () => {
         <Router>
 
           <Routes>
-            <Route path='/' excat element={<LogoPage />} />
+            <Route path='/' excat element={<LogoComponent />} />
             <Route path='/signup' element={<Register />} />
             <Route path='/about' element={<AboutPage />} />
             <Route path='/home' element={<HomePage />} />
