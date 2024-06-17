@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-react-app/static/css/main.9912aae4.css",
+    "main.js": "/my-react-app/static/js/main.37dde0c8.js",
+    "static/js/787.deeec6c3.chunk.js": "/my-react-app/static/js/787.deeec6c3.chunk.js",
+    "static/media/emoji.gif": "/my-react-app/static/media/emoji.dde953123f0b1a71f52e.gif",
+    "static/media/mentors.png": "/my-react-app/static/media/mentors.0c13e94cb187ef2a966f.png",
+    "static/media/andst.jpg": "/my-react-app/static/media/andst.93b04b220b55aba82001.jpg",
+    "static/media/andsti.png": "/my-react-app/static/media/andsti.786c5557126a6bd60f68.png",
+    "static/media/backr1.png": "/my-react-app/static/media/backr1.dd816a095652b086304b.png",
+    "static/media/mives.jpg": "/my-react-app/static/media/mives.1c0bfe03268c4e7fadef.jpg",
+    "index.html": "/my-react-app/index.html",
+    "main.9912aae4.css.map": "/my-react-app/static/css/main.9912aae4.css.map",
+    "main.37dde0c8.js.map": "/my-react-app/static/js/main.37dde0c8.js.map",
+    "787.deeec6c3.chunk.js.map": "/my-react-app/static/js/787.deeec6c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9912aae4.css",
+    "static/js/main.37dde0c8.js"
+  ]
+}
