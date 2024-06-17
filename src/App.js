@@ -4,7 +4,7 @@ import {
   Route,
   Routes
 } from 'react-router-dom';
-import LogoPage from './components/logopage';
+import LogoPage from './components/Logopage';
 import HomePage from './components/pages/homepage';
 import Register from './components/pages/signuppage';
 import AboutPage from './components/pages/aboutPage';
@@ -28,7 +28,6 @@ const App = () => {
       <div >
         <Header />
 
-        <Router>
           <Link to="/" >
             
             <div className=' mt-6 ml-20 mr-20 flex justify-end py-8 px-5 fixed top-0 left-0 right-0 h-44'>
@@ -40,6 +39,7 @@ const App = () => {
 
 
           </Link>
+        <Router>
 
           <Routes>
             <Route path='/' excat element={<LogoPage />} />
@@ -47,8 +47,8 @@ const App = () => {
             <Route path='/about' element={<AboutPage />} />
             <Route path='/home' element={<HomePage />} />
           </Routes>
-          <FooTer />
         </Router>
+          <FooTer />
         
 
       </div>
