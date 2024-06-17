@@ -74,13 +74,18 @@ const Register = () => {
                                     />
                                    
 
-                                    <Link to='/'>
-                                        <button type='submit' className='mt-3 bg-sky-400 p-1 rounded-xl text-s font-mono'> sign up </button>
+                                    <Link to='/'
+                                        className='mt-3 bg-sky-400 p-1 rounded-xl text-s font-mono'> sign up 
                                     </Link>
 
-                                    <Link to='/'>
-                                        <button type='submit' className='mt-2 bg-sky-400 p-1 rounded-xl text-s ml-3 font-mono'> click me </button><a className='ml-2 text-xs'>if you already have account. </a>
+
+                                    <Link to='/'
+                                       className='mt-2 bg-sky-400 p-1 rounded-xl text-s ml-3 font-mono'> click me 
                                     </Link>
+
+
+                                        <a href='/' className='ml-2 text-xs'>if you already have account. </a>
+                                    
                                    
                                 </div>
                             </div>

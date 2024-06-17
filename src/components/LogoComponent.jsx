@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 import { Link } from 'react-router-dom';
-import emoji from '../components/assets/emoji.gif'
+// import emoji from '../components/assets/emoji.gif'
 import andst from '../components/assets/andst.jpg'
 
 
@@ -58,13 +58,17 @@ function LogoComponent() {
                                     />
 
                             
-                                    <Link to='/home'>
-                                        <button type='submit' className='mt-3 bg-sky-400 p-1 rounded-xl mr-1 text-s font-mono'> log in </button>
-                                    </Link>
+                                <Link to='/home'>
+                                    <button type='submit' className='mt-3 bg-sky-400 p-1 rounded-xl mr-1 text-s font-mono'> log in </button>
+                                </Link>
 
-                                    <Link to='/'>
-                                        <button type='submit' className='mt-2 bg-sky-400 p-1 rounded-xl text-s ml-20 font-mono'> sign up </button>,<br/><a className='ml-16 mt-2 text-xs'>if you don't have account. </a>
-                                    </Link>
+                                <Link
+                                
+                                    className='mt-2 bg-sky-400 p-1 rounded-xl text-s ml-20 font-mono'
+                                to='/'>
+                                         sign up 
+                                </Link>
+                                    <Link to='/'  className='ml-16 mt-2 text-xs'>if you don't have account. </Link>
                                    
                                 </div>
                             </div>

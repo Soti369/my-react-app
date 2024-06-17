@@ -45,11 +45,11 @@ function Navbar() {
 
         <div className='bg-pink-100 flex mt-16 gap-6 rounded-t-xl text-s font-mono border-t-2 border-x-2 border-black font-Poppins font-semibold cursor-pointer px-3 py-1 hover:bg-red-400 h-11 w-90 mr-4 pl-5 ease-in-out duration-1000'>
 
-          <Link to="/signup"><h4><h className='text-3xl'>👨‍💻</h>|Sign up</h4></Link>
+          <Link to="/signup" className='text-3xl'>👨‍💻|Sign up</Link>
 
-          <Link to="/about"><h4> <h className='text-3xl'>👻</h>|About Me</h4></Link>
+          <Link to="/about" className='text-3xl'>👻|About M</Link>
 
-          <Link to="/home"><h4> <h className='text-3xl'>🏡</h>|Home</h4></Link>
+          <Link to="/home" className='text-3xl'>🏡|Home</Link>
 
 
           {/* Add more navigation links as needed */}

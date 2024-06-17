@@ -19,36 +19,36 @@ function FormExample() {
     
                 </div>
                 <div className='ml-7 mt-6 flex gap-6 pl-6'>
-                    <svg class="animate-bounce w-6 h-6 bg-black rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-white rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-black rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-white rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-black rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-white rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-black rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
                     </svg>
                     
                 </div>
                 <div className='flex gap-6 pl-6 justify-end'>
-                    <svg class="animate-bounce w-6 h-6 bg-black rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-white rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-black rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-white rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-black rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-white rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
                     </svg>
-                    <svg class="animate-bounce w-6 h-6 bg-black rounded-full">
+                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
                     </svg>
                     
                 </div>
@@ -62,7 +62,7 @@ function FormExample() {
    <div className=''>
     <Header />
     <Navbar className="flex bg-body-tertiary justify-center gap-24">
-      <Form inline>
+      <Form >
         <InputGroup>
           <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
           <Form.Control
@@ -72,7 +72,7 @@ function FormExample() {
           />
         </InputGroup>
       </Form>
-      <Form inline>
+      <Form >
         <Row>
           <Col xs="auto">
             <Form.Control
