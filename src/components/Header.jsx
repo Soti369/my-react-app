@@ -1,68 +1,44 @@
-import React from 'react'
+import React from "react";
 
-
-
-import Navbar from 'react-bootstrap/Navbar';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
+// import Navbar from "react-bootstrap/Navbar";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import InputGroup from "react-bootstrap/InputGroup";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function FormExample() {
+  const Header = () => {
+    return (
+      <div>
+        <div className="flex"></div>
+        <div className="ml-7 mt-6 flex gap-6 pl-6">
+          <svg className="animate-bounce w-6 h-6 bg-black rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-white rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-black rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-white rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-black rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-white rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-black rounded-full"></svg>
+        </div>
+        <div className="flex gap-6 pl-6 justify-end">
+          <svg className="animate-bounce w-6 h-6 bg-black rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-white rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-black rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-white rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-black rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-white rounded-full"></svg>
+          <svg className="animate-bounce w-6 h-6 bg-black rounded-full"></svg>
+        </div>
+      </div>
+    );
+  };
 
-    const Header = () => {
-        return (
-            <div>
-                <div className='flex'>
-    
-                </div>
-                <div className='ml-7 mt-6 flex gap-6 pl-6'>
-                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
-                    </svg>
-                    
-                </div>
-                <div className='flex gap-6 pl-6 justify-end'>
-                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-white rounded-full">
-                    </svg>
-                    <svg className="animate-bounce w-6 h-6 bg-black rounded-full">
-                    </svg>
-                    
-                </div>
-                
-            </div>
-        )
-    }
-    
   return (
-  
-   <div className=''>
-    <Header />
-    <Navbar className="flex bg-body-tertiary justify-center gap-24">
-      <Form >
+    <div className="">
+      <Header />
+      {/* <Navbar className="flex bg-body-tertiary justify-center gap-24"> */}
+      <Form>
         <InputGroup>
           <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
           <Form.Control
@@ -72,7 +48,7 @@ function FormExample() {
           />
         </InputGroup>
       </Form>
-      <Form >
+      <Form>
         <Row>
           <Col xs="auto">
             <Form.Control
@@ -86,13 +62,9 @@ function FormExample() {
           </Col>
         </Row>
       </Form>
-    </Navbar>
+      {/* </Navbar> */}
     </div>
-
   );
 }
 
 export default FormExample;
- 
-
-
