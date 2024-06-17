@@ -8,13 +8,11 @@ import LogoPage from './components/logopage';
 import HomePage from './components/pages/homepage';
 import Register from './components/pages/signuppage';
 import AboutPage from './components/pages/aboutPage';
-import logo369 from './components/assets/logo369.png';
 import { Link } from 'react-router-dom';
 import andsti from './components/assets/andsti.png';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import FooTer from './components/FooTer';
-import mentors from './components/assets/mentors.png'
 
 
 
