@@ -6,7 +6,7 @@ import AboutPage from "./components/pages/AboutPage";
 import { Link } from "react-router-dom";
 import andsti from "./components/assets/andsti.png";
 import Navbar from "./components/Navbar";
-import Header from "./components/HeaDer";
+import HeaDer from "./components/HeaDer";
 import FooTer from "./components/FooTer";
 import LogoComponent from "./components/LogoComponent";
 
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="bg-faltu rounded-3xl mx-9 bg-center h-screen">
       <div>
-        <Header />
+        <HeaDer />
         <Router>
           <div className=" mt-6 ml-20 mr-20 flex justify-end py-8 px-5 fixed top-0 left-0 right-0 h-44">
             <Navbar />
