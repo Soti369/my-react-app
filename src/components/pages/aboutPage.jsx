@@ -33,10 +33,9 @@ const AboutPage = () => {
             trends, I am dedicated to advancing IT strategies that align with
             business objectives and foster sustainable success.
           </span>
-          <br />
           <h4>-------------------------------------------------------</h4>
+          <img src={mentors} alt="mentors" className="h-40 w-full" />
         </div>
-        <img src={mentors} alt="mentors" className="h-40 w-full" />
       </div>
     </div>
   );

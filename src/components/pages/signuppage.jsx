@@ -65,19 +65,18 @@ const Register = () => {
                   <label className="font-mono text-s"> Password </label>
                   <br />
                   <input
-                    className="w-44 h-8 rounded-3xl border-2 border-black pl-3"
+                    className="w-44 h-8 mb-3 rounded-3xl border-2 border-black pl-3"
                     type="password"
                     id="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     placeholder="enter yous password"
                   />
-
+                  <br />
                   <Link
                     to="/"
                     className="mt-3 bg-sky-400 p-1 rounded-xl text-s font-mono"
                   >
-                    {" "}
                     sign up
                   </Link>
 
@@ -85,7 +84,6 @@ const Register = () => {
                     to="/"
                     className="mt-2 bg-sky-400 p-1 rounded-xl text-s ml-3 font-mono"
                   >
-                    {" "}
                     click me
                   </Link>
 

@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HomePage from "./components/pages/homepage";
-import Register from "./components/pages/signuppage";
-import AboutPage from "./components/pages/aboutPage";
+import HomePage from "./components/pages/HomePage";
+import Register from "./components/pages/SignupPage";
+import AboutPage from "./components/pages/AboutPage";
 import { Link } from "react-router-dom";
 import andsti from "./components/assets/andsti.png";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Header from "./components/HeaDer";
 import FooTer from "./components/FooTer";
 import LogoComponent from "./components/LogoComponent";
 

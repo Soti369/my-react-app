@@ -37,16 +37,16 @@ function Navbar() {
       </Link>
 
       <div className="flex justify-end ">
-        <div className="bg-pink-100 flex mt-16 gap-6 rounded-t-xl text-s font-mono border-t-2 border-x-2 border-black font-Poppins font-semibold cursor-pointer px-3 py-1 hover:bg-red-400 h-11 w-90 mr-4 pl-5 ease-in-out duration-1000">
-          <Link to="/signup" className="text-3xl">
+        <div className="bg-pink-100 flex mt-16 gap-6 rounded-t-xl text-sm font-mono border-t-2 border-x-2 border-black font-Poppins font-semibold cursor-pointer px-3 py-1 hover:bg-red-400 h-11 w-90 mr-4 pl-5 ease-in-out duration-1000">
+          <Link to="/signup" className="text-xl">
             👨‍💻|Sign up
           </Link>
 
-          <Link to="/about" className="text-3xl">
-            👻|About M
+          <Link to="/about" className="text-xl">
+            👻|About Me
           </Link>
 
-          <Link to="/home" className="text-3xl">
+          <Link to="/home" className="text-xl">
             🏡|Home
           </Link>
 
