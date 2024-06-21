@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HomePage from "./components/pages/HomePage";
+import LogoComponent from "./components/pages/LogoComponent";
 import Register from "./components/pages/SignupPage";
 import AboutPage from "./components/pages/AboutPage";
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ import andsti from "./components/assets/andsti.png";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import FooTer from "./components/FooTer";
-import LogoComponent from "./components/LogoComponent";
+import HomePage from "./components/HomePage";
 
 const App = () => {
   return (
